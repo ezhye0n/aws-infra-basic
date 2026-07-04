@@ -1,4 +1,6 @@
-# ☁️ AWS Cloud Fundamentals: 클라우드 인프라 기초 과정
+# ☁️ AWS Cloud Fundamentals
+: 클라우드 인프라 기초 과정
+
 Hands-on labs and summaries for AWS Cloud Fundamentals (VPC, EC2, S3, ELB).  Learning and practicing the core AWS infrastructure for backend architecture.
 
 AWS의 핵심 글로벌 인프라(Region, AZ)를 이해하고, 백엔드 아키텍처의 기반이 되는 네트워크(VPC), 컴퓨팅(EC2), 스토리지(S3, EBS, EFS) 및 보안(IAM) 서비스를 학습하고 실습한 저장소입니다.
