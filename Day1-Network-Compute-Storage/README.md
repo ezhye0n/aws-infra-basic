@@ -6,14 +6,14 @@
 
 ## 📂 디렉토리 구조 및 실습 내용
 
-### 1. [01_AWS_GlobalInfrastructure_VPC](./01_AWS_GlobalInfrastructure_VPC/)
+### 1. [1_AWS_GlobalInfrastructure_VPC](./1_AWS_GlobalInfrastructure_VPC/)
 - **핵심 개념:** 리전(Region) 선택 기준, 가용 영역(AZ), CIDR 블록 표기법 및 IP 할당 방식
 - **실습 내용:**
   * **VPC 및 서브넷 설계:** 가상 네트워크망(`VPC`)을 생성하고, CIDR 범위를 쪼개어 외부 통신이 가능한 **Public Subnet**과 내부망으로 격리된 **Private Subnet** 환경 구성
   * **공인 IP 할당 방식 분석:** EC2 인스턴스에 퍼블릭 IP를 매핑하는 동적 방식과 고정형 자원인 탄력적 IP(EIP)의 차이점 학습
   * **NAT 게이트웨이 실습:** Private Subnet 내부에 배치된 가상 머신(`vm01`)이 외부 인터넷과 안전하게 아웃바운드 통신을 주고받을 수 있도록 라우팅 테이블 및 NAT 게이트웨이 연동
 
-### 2. [02_VPC_Security_nACL_SG](./02_VPC_Security_nACL_SG/)
+### 2. [2_VPC_Security_nACL_SG](./2_VPC_Security_nACL_SG/)
 - **핵심 개념:** 인바운드(Inbound)/아웃바운드(Outbound) 트래픽 흐름 제어, 다중 방어 계층(Multi-layered Security)
 - **실습 내용:**
   * **보안 그룹(Security Group) 제어:** 인스턴스 레벨의 방화벽인 `my-private-sg`를 생성하고, Stateful 특성을 이해하며 허용(Allow) 규칙 설정 규칙 마스터
