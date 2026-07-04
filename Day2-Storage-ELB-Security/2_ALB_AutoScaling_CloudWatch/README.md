@@ -149,7 +149,7 @@ stress --cpu 400 --timeout 600
 
 # 
 
-![image.png](2_ALB_AutoScaling_CloudWatch/image.png)
+![image.png](image.png)
 
 ## 1. 💡 핵심 개념 요약
 
@@ -157,7 +157,7 @@ stress --cpu 400 --timeout 600
 - **수평적 조정 (Horizontal Scaling / Scale-out):** 부족한 부하를 채우기 위해 서버의 체급을 올리는 것이 아니라, **동일한 사양의 서버 개수(수량)를 옆으로 늘려가며** 부하를 분산하는 방식 (실습에서 진행 중인 방식).
 - **EC2 인스턴스 연결 (Instance Connect):** MobaXterm 같은 외부 툴 없이도 AWS 웹 콘솔 환경에서 직접 브라우저 기반 터미널로 서버에 급히 접속할 수 있는 기능.
 
-![image.png](2_ALB_AutoScaling_CloudWatch/image%201.png)
+![image.png](image%201.png)
 
 ## 2. 🔥 실습 1: 웹 기반 터미널 접속 및 동시 부하(Stress) 테스트
 
