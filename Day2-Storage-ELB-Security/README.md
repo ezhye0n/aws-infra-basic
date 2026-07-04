@@ -6,19 +6,19 @@
 
 ## 📂 디렉토리 구조 및 실습 내용
 
-### 1. [01_EC2_AMI_HighAvailability](./01_EC2_AMI_HighAvailability/)
+### 1. [1_EC2_AMI_HighAvailability](./1_EC2_AMI_HighAvailability/)
 - **핵심 개념:** 온디맨드(On-Demand) 컴퓨팅과 가상화 하이퍼바이저(Hypervisor)의 이해
 - **실습 내용:** - 기본 Nginx 웹 서버(1번)를 구축한 후, 이를 기반으로 **AMI(Amazon Machine Image)**를 생성
   - 생성된 AMI 스냅샷을 활용하여 동일한 설정의 2번 웹 서버를 신속하게 복제 및 이중화 환경 설계
 
-### 2. [02_ALB_AutoScaling_CloudWatch](./02_ALB_AutoScaling_CloudWatch/)
+### 2. [2_ALB_AutoScaling_CloudWatch](./2_ALB_AutoScaling_CloudWatch/)
 - **핵심 개념:** 로드 밸런싱(부하 분산), 인프라 탄력성(Elasticity) 및 수평적 확장(Scale-out)
 - **실습 내용:**
   - **보안 그룹 체인(체인 방화벽):** 외부 트래픽이 무조건 로드 밸런서를 거쳐서만 웹 서버에 도달하도록 인바운드 보안 아키텍처 설계
   - **동적 크기 조정 정책:** CPU 사용률 임계값(50%) 기준 및 워밍업(60초) 설정을 반영한 ASG(Auto Scaling Group) 구성
   - **부하 테스트 검증:** 리눅스 터미널 환경에서 `stress` 툴(8코어 부하)을 이용해 CloudWatch 경보 발생 및 인스턴스가 2대에서 **최대 용량인 5대까지 동적 확장**되는 매커니즘 확인
 
-### 3. [03_S3_IAM_Serverless](./03_S3_IAM_Serverless/)
+### 3. [3_S3_IAM_Serverless](./3_S3_IAM_Serverless/)
 - **핵심 개념:** 객체 스토리지 수명 주기, 최소 권한 원칙(Least Privilege), 이벤트 기반 서버리스
 - **실습 내용:**
   - **S3 정적 웹 사이트 호스팅:** 부트스트랩 테마를 활용한 호스팅 및 버킷 정책 JSON 제어
